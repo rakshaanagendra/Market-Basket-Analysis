@@ -1,9 +1,0 @@
-support,itemsets
-0.3333333333333333,frozenset({'apple'})
-0.5,frozenset({'banana'})
-0.5,frozenset({'bread'})
-0.3333333333333333,frozenset({'grape'})
-0.3333333333333333,frozenset({'milk'})
-0.3333333333333333,"frozenset({'apple', 'banana'})"
-0.3333333333333333,"frozenset({'banana', 'grape'})"
-0.3333333333333333,"frozenset({'bread', 'milk'})"
