@@ -23,6 +23,16 @@ This project demonstrates \*\*Market Basket Analysis\*\* (Apriori + Association 
 \- Managed with `dvc repro`
 
 
+## Results & Visualizations
+
+### MLflow Experiment Tracking
+![MLflow Runs](assets/mlflow_runs.png)
+
+### Association Rules Network
+![Rules Network](assets/rules_network.png)
+
+
+
 
 \## 🔧 How to Run
 
