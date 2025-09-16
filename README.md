@@ -28,6 +28,9 @@ This project demonstrates \*\*Market Basket Analysis\*\* (Apriori + Association 
 ### MLflow Experiment Tracking
 ![MLflow Runs](assets/mlflow_runs.png)
 
+### Item supports
+![Item supports 10%](assets/item_supports.png)
+
 ### Association Rules Network
 ![Rules Network](assets/rules_network.png)
 
