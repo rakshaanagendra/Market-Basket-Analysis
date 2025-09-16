@@ -1,0 +1,34 @@
+schema: '2.0'
+stages:
+  market_basket:
+    cmd: python market_basket_mlflow.py
+    deps:
+    - path: market_basket_mlflow.py
+      hash: md5
+      md5: 04f59712b1dc2d4e458321425c5d44d5
+      size: 6104
+    - path: transactions.csv
+      hash: md5
+      md5: bdd6d43447320c1a725b36215b77e010
+      size: 136
+    outs:
+    - path: outputs/frequent_itemsets.csv
+      hash: md5
+      md5: ee4c75c95d38b1bdf272c20c80df886e
+      size: 357
+    - path: outputs/rules.csv
+      hash: md5
+      md5: caecfc64d2440fe6c19c0536f1bbb40e
+      size: 1221
+    - path: outputs/rules_network.png
+      hash: md5
+      md5: 258b9cb4d064673b441050b2b2839941
+      size: 20410
+    - path: outputs/support_hist.png
+      hash: md5
+      md5: 1956be0c9e57e994c6e54f81ebde86f2
+      size: 11842
+    - path: outputs/top_items.csv
+      hash: md5
+      md5: afc92e734d855820386d2f391171cba4
+      size: 88

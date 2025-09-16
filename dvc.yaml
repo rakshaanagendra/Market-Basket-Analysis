@@ -1,0 +1,12 @@
+stages:
+  market_basket:
+    cmd: python market_basket_mlflow.py
+    deps:
+    - market_basket_mlflow.py
+    - transactions.csv
+    outs:
+    - outputs/frequent_itemsets.csv
+    - outputs/rules.csv
+    - outputs/rules_network.png
+    - outputs/support_hist.png
+    - outputs/top_items.csv

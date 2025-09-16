@@ -1,5 +1,7 @@
 mlflow
+dvc
 pandas
 mlxtend
 networkx
 matplotlib
+pyyaml

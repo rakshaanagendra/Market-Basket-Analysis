@@ -1,0 +1,7 @@
+#WITHOUT DVC SERVER ACTIVATION
+py -m mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
+python market_basket_mlflow.py
+
+#WITH DVC SERVER ACTIVATION
+dvc repro
+mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
