@@ -41,7 +41,7 @@ This project demonstrates \*\*Market Basket Analysis\*\* (Apriori + Association 
 
 ```bash
 
-git clone https://github.com/rakshaanagendra/market-basket-mlops.git
+git clone https://github.com/rakshaanagendra/mMarket-Basket-Analysis.git
 
 cd market-basket-mlops
 
